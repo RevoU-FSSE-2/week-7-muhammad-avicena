@@ -1,0 +1,15 @@
+/* Mobile menu hidden by default */
+#mobile-menu {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    #mobile-menu {
+      display: none;
+    }
+
+    #mobile-menu.open {
+        display: block;
+    }
+    
+}
