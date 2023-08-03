@@ -3,6 +3,16 @@
     display: none;
 }
 
+#comment-container {
+    margin-top: 20px;
+    overflow-y: auto;
+}
+
+textarea:focus-visible {
+    outline-offset: 0px;
+    outline: none;
+}
+
 @media (max-width: 768px) {
     #mobile-menu {
       display: none;
