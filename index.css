@@ -13,6 +13,11 @@ textarea:focus-visible {
     outline: none;
 }
 
+#round-image {
+    width: 20px;
+    height: 20px;
+  }
+
 @media (max-width: 768px) {
     #mobile-menu {
       display: none;
