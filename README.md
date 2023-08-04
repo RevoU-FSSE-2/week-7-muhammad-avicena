@@ -1,8 +1,9 @@
 ![header](assets/image.png)
+![donation](assets/donation.png)
 
-<h1 align="left">Fancy to see you here ! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
+<h1 align="left">Welcome to SuperStar: Empower Your Influencers, Ignite Their Dreams! <img src="https://raw.githubusercontent.com/muhammad-avicena/profile/master/wave.gif" width="30px" height="30px" /> </h1>
 
-hi, I'm Muhammad Avicena. In this repo, I built SuperStar app where any supporter could use it to donate their influencer. I hope you like it !
+Are you ready to revolutionize the way you support your favorite influencers? Look no further than SuperStar – the ultimate donation app designed to elevate content creators and fuel their passion for creativity. Hi, I'm Muhammad Avicena, the founder of SuperStar, and I'm thrilled to introduce you to a platform that empowers both influencers and their devoted supporters.
 
 I am committed to staying up-to-date with industry trends and using the latest tools to develop innovative solutions that surpass expectations.
 Interested to have collaboration ? Find me on:
@@ -30,6 +31,13 @@ Interested to have collaboration ? Find me on:
   - Image
   - TailwindCSS
   - Bootstrap
+
+## FEATURE 📰
+
+1. You can donate your favourite influencer.
+2. You can customize your media share integrated with youtube that will be shown in the popup.
+3. Responsive app with mobile/pc version.
+
 
 ## DEPLOYMENT ⚙️
 
