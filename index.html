@@ -37,7 +37,7 @@
         <strong class="font-semibold">SuperStar</strong><svg viewBox="0 0 2 2"
           class="mx-2 inline h-0.5 w-0.5 fill-current" aria-hidden="true">
           <circle cx="1" cy="1" r="1" />
-        </svg>Be a super star and get support with our application - FREE ADMIN FEE FOR 1 MONTH !
+        </svg>Be a super star and get support with your audience - FREE ADMIN FEE FOR 1 MONTH !
       </p>
       <a href="#"
         class="flex-none rounded-full bg-gray-900 px-3.5 py-1 text-sm font-semibold text-white shadow-sm hover:bg-gray-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-gray-900">Register
@@ -169,7 +169,7 @@
               <div class="sm:col-span-3">
                 <label for="username" class="block text-sm font-medium leading-6 text-gray-900">Username *</label>
                 <div class="mt-2">
-                  <input type="text" name="first-name" id="first-name" autocomplete="given-name"
+                  <input type="text" name="first-name" id="first-name" autocomplete="given-name" required
                     class="px-2 py-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                 </div>
               </div>
@@ -177,14 +177,14 @@
                 <label for="email-address" class="block text-sm font-medium leading-6 text-gray-900">Email
                   address *</label>
                 <div class="mt-2">
-                  <input type="text" name="last-name" id="last-name" autocomplete="family-name"
+                  <input required type="email" name="email-address" id="email-address"
                     class="px-2 py-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                 </div>
               </div>
               <div class="sm:col-span-3">
-                <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Donation (Rp) *</label>
+                <label for="donation" class="block text-sm font-medium leading-6 text-gray-900">Donation (Rp) *</label>
                 <div class="mt-2">
-                  <select id="country" name="country" autocomplete="country-name"
+                  <select id="donation" name="donation" autocomplete="donation" required
                     class="px-2 py-2 block w-full rounded-md border-0 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
                     <option>Rp. 10.000</option>
                     <option>Rp. 25.000</option>
@@ -196,9 +196,9 @@
                 </div>
               </div>
               <div class="sm:col-span-3">
-                <label for="country" class="block text-sm font-medium leading-6 text-gray-900">Payment Method *</label>
+                <label for="payment" class="block text-sm font-medium leading-6 text-gray-900">Payment Method *</label>
                 <div class="mt-2">
-                  <select id="country" name="country" autocomplete="country-name"
+                  <select id="payment" name="payment" autocomplete="payment-method" required
                     class="px-2 py-2 block w-full rounded-md border-0 py-3 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6">
                     <option>Bank Central Asia (BCA)</option>
                     <option>BRI</option>
@@ -214,10 +214,10 @@
                 </div>
               </div>
               <div class="col-span-full">
-                <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Media Share
+                <label for="media-share" class="block text-sm font-medium leading-6 text-gray-900">Media Share
                   (Youtube Link)</label>
                 <div class="mt-2">
-                  <input type="text" name="street-address" id="street-address" autocomplete="street-address"
+                  <input type="text" name="media-share" id="media-share" autocomplete="media-share"
                     class="px-2 py-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
                 </div>
               </div>
